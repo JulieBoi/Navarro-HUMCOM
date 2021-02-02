@@ -4,21 +4,25 @@
         <title>Lesson1-Basic Elements</title>
         <meta name="author" content="J.Navarro">
     </head>
-    <body>
+    <body bgcolor = 'cyan'background = "https://brushwarriors.com/wp-content/uploads/2020/05/Sailor-Moon-Ricardo-Milos.jpg">
+        <font face = "Courier New">
         <h1>Level 1 Heading</h1>
         <h2>Level 2 Heading</h2>
         <h3>Level 3 Heading</h3>
         <h4>Level 4 Heading</h4>
         <h5>Level 5 Heading</h5>
         <h6>Level 6 Heading</h6>
+        </font>
+        <font face = "Typo Cut-out Shaky Demo" color = "Purple" size = "4">
         <p> Sunset is the time of day when our sky meets the outer space solar winds. 
             There are blue, pink, and purple swirls, spinning and twisting, like clouds 
             of balloons caught in a whirlwind. The sun moves slowly to hide behind the line 
             of horizon, while the moon races to take its place in prominence atop the night sky. 
             People slow to a crawl, entranced, fully forgetting the deeds that must still be done. 
             There is a coolness, a calmness, when the sun does set.</p>
-
-            <h2>Orderlist Examples 1</h2>
+        </font>
+        <font color = 'Blue'>
+            <h2>Orderlist Examples 1</h2></font>
             <ol> 
                 <li>Item 1</li>
                 <li>Item 2</li>
@@ -73,18 +77,32 @@
                 <li>Item 2</li>
                 <li>Item 3</li>
             </ul>
+            <!--This is HTML Comment-->
 
-            <h2>nested orderlist Examples 1</h2>
-            <ol type='a'> 
+            <h2>Nested orderlist Examples 1</h2>
+            <ol type='I'> 
                 <li>Item 1</li>
                 <li>Item 2</li>
-                <ul> 
+                <ol type='a'> 
                     <li>Item 1</li>
                     <li>Item 2</li>
                     <li>Item 3</li>
-                </ul>
+                    <ul>
+                        <li>Another List</li>
+
+                    </ul>
+                </ol><!--Closing inner list-->
                 <li>Item 3</li>
+                <li>Item 4</li>
             </ol>
+            <!--This is example of defintion list-->
+            <Center><h2><u>Definition lists</u></h2></Center> <!--<u> command = underline-->
+            <dl>
+                <dt><B>HTML</B></dt> <!--first item to define--> <!--<b> command = BOLD-->
+                    <dd><i>Hyper text markup language</i></dd> <!--Definition--> <!--"<i> command = italic"-->
+                <dt>CSS</dt>
+                    <dd>Cascading Stylesheets</dd>
+            </dl>
 
     </body>
 </html>
