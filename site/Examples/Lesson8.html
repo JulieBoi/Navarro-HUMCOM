@@ -1,0 +1,69 @@
+<!doctype html>
+<HTML>
+    <Head>
+        <title>HTML Form Elements</title>
+        <meta charset = "UTF=8">
+        <meta name="author" content ="J.Navarro">
+    </Head>
+    <body>
+        <form>
+            <table align="center" width="80%">
+                <tr><!--TEXT-->
+                    <td><label for="Fname">First Name</label></td>
+                    <td><input type="text" id="Fname" size="50" required></td> 
+                </tr><!--END TEXT-->
+
+                <tr><!--Patter-->
+                    <td><label for="Phone Number">Phone Number</label></td>
+                    <td><input type="tel" id="Phone Number" size="50" required placeholder="123-444-1234" patter="[0-9]{3}-[0-9]{3}-[0-9]{4}"></td> 
+                </tr><!--END Patter-->
+
+                <tr><!--Patter Mobile phone number-->
+                    <td><label for="Phone Number">Phone Number</label></td>
+                    <td><input type="tel" id="Phone Number" size="50" required placeholder="+XXX-0XXX-XXX-XXXX" patter="[0-9]{3}-[0-9]{3}-[0-9]{4}"></td> 
+                </tr><!--END Patter Mobile phone number-->
+
+                <tr><!--password-->
+                    <td><label for="Password">Password</label></td>
+                    <td><input type="password" id="password" size="25" maxlength="15" minlength="8" required></td> 
+                </tr><!--END password-->
+
+                <tr><!--DATE-->
+                    <td><label for="bday">Birthday</label></td>
+                    <td><input type="date" id="bday" min="2000-01-01" max="2020-01-01" required></td> 
+                </tr><!--END DATE-->
+
+                <tr><!--gender-->
+                    <td><label for="Gender">Gender</label></td>
+                    <td>
+                        <select type="gender" id="Gender" name="gender">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Attack Hellicopter">Attack Helicopter</option>
+                        </select>
+                    </td> 
+                </tr><!--END gender-->
+
+                <tr><!--Radio-->
+                    <td><label for="course">Course</label></td>
+                    <td><input type="radio" id="course" name="course" value="BSIT"><label>BSIT</label>
+                        <input type="radio" id="course" name="course" value="BSCS"><label>BSCS</label>
+                        <input type="radio" id="course" name="course" value="BSCPE"><label>BSCPE</label></td>
+                </tr><!--END Radio-->
+
+                <tr><!--Checkbox-->
+                    <td><label for="Hobbies">hobbies</label></td>
+                    <td><input type="checkbox" id="Hobbies" name="Hobbies1" value="MUSIC"><label>Music</label>
+                        <input type="checkbox" id="Hobbies" name="Hobbies2" value="EATING"><label>Eating</label>
+                        <input type="checkbox" id="Hobbies" name="Hobbies3" value="SLEEPING"><label>Sleeping</label></td>
+                </tr><!--END Checkbox-->
+
+                <tr><!--SUBMIT button -->
+                    <td colspan="2">
+                        <input type="submit" value="Submit">
+                    </td>
+                </tr><!--END SUBMIT button -->
+            </table>
+        </form>
+    </body>
+</HTML>
