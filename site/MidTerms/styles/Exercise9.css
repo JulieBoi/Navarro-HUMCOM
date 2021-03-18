@@ -16,7 +16,7 @@ body
     height: 100px;
     font-size: 4em;
     text-align: center;
-    border: 1pt #2E4053 solid;
+    border: 1pt #7F00FF solid;
 }/*end ADTR*/
 
 #mainContent{
@@ -27,7 +27,7 @@ body
 #description, #WhyADTR, #Album, #reference{ /*description box size*/
     width: 960px;
     height: max-content;
-    border: 1pt #2E4053 solid;
+    border: 1pt #7F00FF solid;
 }/*end of description box size*/
 
 #question, #bandalbum{
