@@ -1,0 +1,169 @@
+*{
+    color: rgb(0, 0, 0);   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',  sans-serif;
+    font-size: 1em;
+    box-sizing: border-box;
+    margin: 10px auto;
+
+
+}
+body{
+    width: 70%;    
+    text-align: center; 
+}
+
+
+#maincontent{
+    height:auto ;
+    width:1400px;
+    margin: 10px auto;
+    border:4pt darkorange solid;
+    background-color: lightsteelblue;
+
+}
+
+
+#mheader{
+    width: 98% ;
+    height: 50px auto ;
+    margin: 10px auto;
+    border:1pt rgb(5, 5, 5) solid;
+    background-color: skyblue;
+}
+
+nav{
+    width: 98% ;
+    padding-top: 5pt;
+    height: 50px ;
+    margin: 10px ;
+    border:1pt rgb(5, 5, 5) solid;
+    background-color: white;
+}
+
+.column{
+    float: left;
+    padding: 10px;
+    height: auto;
+  }
+
+.left{
+    width: 35% ;
+    height: auto ;
+    margin: 10pt;
+    background-color: skyblue;
+    border:1pt black solid;
+    
+}
+.right{
+    width: 60% ;
+    height: auto ;
+    margin: 10pt;
+    float: right;
+    background-color: skyblue;
+    border:1pt black solid;
+
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#headersection{
+    width:auto;
+    padding-top: 5pt;
+    margin: 10pt;
+    height: 60px;
+    background-color: white;
+    border: 1pt black solid;
+}
+
+#navright{
+    width:auto;
+    padding-top: 325pt;
+    margin: 10pt;
+    height: 650pt;
+    background-color: white;
+    border: 1pt black solid;
+}
+
+#footerleft, #thirdfooter{
+    width:auto;
+    margin: 10pt;
+    padding-top: 10pt;
+    height: 50px;
+    background-color: white;
+    border: 1pt black solid;
+}
+
+#footerright{
+    width:auto;
+    margin: 20pt;
+    padding-top: 10pt;
+    height: 50px;
+    background-color: white;
+    border: 1pt black solid;
+}
+
+#firstarticle, #secondarticle{
+    width:auto;
+    margin: 10pt;
+    height: 319pt;
+    background-color: white;
+    border: 1pt black solid;
+}
+
+.header{
+    width:auto;
+    margin: 15pt;
+    padding-top: 10pt;
+    height: 55px;
+    background-color: white;
+    border: 1pt black solid;
+}
+
+#HeaderArticleTwo{
+    width:auto;
+    margin: 20pt;
+    padding-top: 10pt;
+    height: 55px;
+    background-color: white;
+    border: 1pt black solid;
+}
+
+
+.article{
+    padding: 10px;
+    height: auto;
+  }
+
+.articleLeft{
+    width: 56%;
+    height: 100pt ;
+    margin: 20pt;
+    float: left;
+    border:1pt black solid;
+    
+}
+.articleRight{
+    width: 30% ;
+    height: 100pt;
+    margin: 20pt;
+    float: right;
+    border:1pt black solid;
+
+}
+.rowarticle::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
