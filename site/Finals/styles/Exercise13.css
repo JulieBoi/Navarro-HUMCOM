@@ -52,14 +52,14 @@ body{
     margin: 5px;
 }
 .Hero{
-    height: 200px;
+    height: auto;
 }
 .HeroFeature{
     height: 120px;
 }
 .Hcta{
     height: 120px;
-    width: 295px;
+    width: 290px;
     margin: 5px;
 }
 .Body{
@@ -75,7 +75,7 @@ body{
 }
 .Tools{
     margin: 5px;
-    width: 310px;
+    width: 305px;
 }
 .sidebar{
     width: 335px;
