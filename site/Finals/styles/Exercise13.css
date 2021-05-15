@@ -1,0 +1,124 @@
+*{
+    box-sizing:border-box;
+    font-family: 'Lucida Sans', Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background-color: aqua;
+    width: 100%;
+    
+}
+[class*="col-"]{
+    float: left;
+    padding: 5px;
+    border: 5px solid rgba(10, 10, 10, 0.5);
+    background-color: skyblue;
+    
+}
+#wrapper{
+    width:90%;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.col-12{
+    width:95%;
+    margin: 5px;
+}
+.col-9{
+    width:75%;
+    margin: 5px;
+}
+.col-7{
+    width:62%;
+    margin: 5px;
+}
+.col6{
+    width:50%;
+}
+.col-3{
+    width:19%;
+    margin-top: 5px;
+}
+.ad{
+    height: 200px;
+    width: 335px;
+    margin: 5px;
+}
+.Hero{
+    height: 200px;
+}
+.HeroFeature{
+    height: 120px;
+}
+.Hcta{
+    height: 120px;
+    width: 295px;
+    margin: 5px;
+}
+.Body{
+    height: 500px;
+}
+.ArticleFeature,.ArticleListing,.SF{
+    height: 410px;
+    margin-left: 5px;
+    margin: 5px;
+}
+.ArticleListing{
+   width: 79%;
+}
+.Tools{
+    margin: 5px;
+    width: 310px;
+}
+.sidebar{
+    width: 335px;
+    margin: 5px;
+    height: 500px;
+}
+
+.col-2{
+    width: 16.667%;
+    margin: 5px;
+}
+.header,.Hero,.Body,.sidebar,.footer{
+    background-color:rgb(129, 149, 216);
+}
+
+@media screen and (max-width:1024px){/* md MEdium view port */
+    body{
+        background-color: chartreuse;
+    }
+    #wrapper{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50% 100% 50%;
+
+    }
+}
+@media screen and (max-width:768px){ /* small view port */
+    body{
+        background-color: violet;
+    }
+    #wrapper{
+    width:100%;
+    }
+    .col-sm-12{
+        width: 100%;
+    }
+    .col-sm-6{
+        width:50%;
+    }
+}
+@media screen and (max-width:600px){/* Extra small view port */
+    body{
+        background-color: tomato;
+    }
+
+}

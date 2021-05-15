@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;  color: rgb(14, 13, 13);   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',  sans-serif;
+}
+
+body{ width: auto;}
+
+header{
+    padding-left: 5px;
+    padding-top: 5px;
+    width: auto;
+    height: auto;
+    border:1pt black solid ;
+    background-color: rgb(22, 206, 206);
+}
+
+.column{
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    margin: 10px;
+}
+
+.column>.Brand{    
+    width:250px;
+    height: 50px;
+    background-color: rgb(122, 202, 233);    
+    border: 1pt black solid;
+}
+
+.column>.Nav{    
+    width:1250px;
+    height: 50px;
+    background-color: rgb(122, 202, 233);    
+    border: 1pt black solid;
+}
+
+.column>.Tools{    
+    width:300px;
+    height: 50px;
+    background-color: rgb(122, 202, 233);    
+    border: 1pt black solid;
+}
+
+@media screen and (max-width:1024){
+    .column{
+        grid-template-columns: auto auto auto;
+    }
+    .column>.Brand,.column>.Nav,.column>.Tools{
+    height: 50px;
+    }
+}
+
+
